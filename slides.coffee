@@ -13,10 +13,14 @@
     <h3 style="text-transform: none">Concepts covered:</h3>
 
     <ul>
-      <li>Event loop</li>
-      <li>Closures</li>
-      <li>this</li>
+      <li>Event loop - How JS Runs Code</li>
+      <li>Closures - How Variables Names Work in JS</li>
+      <li>this - What is it, and how it works</li>
     </ul>
+  """
+
+  """
+      <h3 style="text-transform: none">The Event Loop - How JS Runs Code</h3>
   """
 
   """
@@ -34,16 +38,47 @@
   """
 
   """
-      <h3 style="text-transform: none">The Event Loop</h3>
+      <h3 style="text-transform: none">The Event Loop - Example 1 - Explained</h3>
+
+      <iframe height='500' scrolling='no' src='//codepen.io/theosp/embed/jryWEO/?height=500&theme-id=0&default-tab=js&embed-version=2' frameborder='no' allowtransparency='true' allowfullscreen='true' style='width: 100%;'>See the Pen <a href='http://codepen.io/theosp/pen/begpRq/'>Understanding JS - EventLoop 2</a> by Daniel Chcouri (<a href='http://codepen.io/theosp'>@theosp</a>) on <a href='http://codepen.io'>CodePen</a>.
+      </iframe>
+  """
+
+  """
+      <h3 style="text-transform: none">JS is single threaded - <b>only one piece of code runs in any given moment</b></h3>
+
+      <img src="/img/event_loop_e1_d1.png" style="border: 0 none;">
+  """
+
+
+  """
+      <h3 style="text-transform: none">While js is processing code, events are queued in the events queue</b></h3>
+
+      <img src="/img/event_loop_e1_d2.png" style="border: 0 none;">
+  """
+
+
+  """
+      <h3 style="text-transform: none">As long as a certain code keeps running it blocks the events queue</b></h3>
+
+      <img src="/img/event_loop_e1_d3.png" style="border: 0 none;">
+  """
+
+  """
+      <h3 style="text-transform: none">The Event Loop process</h3>
 
       <ul>
-        <li>JS is single threaded - <b>only one piece of code runs in any given moment</b></li>
-        <li>While js is processing code, events are queued in the events queue</li>
-        <li>As long as a certain code keeps running it blocks the event loop - No further events will be handled by the event loop.</li>
-        <li>Once the processing of code is completed, the event loop take the next event from the queue and calls its handler.</li>
+        <li>Once the processing of code is completed, the <b>Event Loop</b> takes the next event from the queue and calls its handler.</li>
       </ul>
 
       <img src="/img/event-loop.png" style="border: 0 none;">
+  """
+
+  """
+      <h3 style="text-transform: none">The Event Loop - Example 2 - Explained</h3>
+
+      <iframe height='400' scrolling='no' src='//codepen.io/theosp/embed/KMaMMr/?height=400&theme-id=0&default-tab=js&embed-version=2' frameborder='no' allowtransparency='true' allowfullscreen='true' style='width: 100%;'>See the Pen <a href='http://codepen.io/theosp/pen/KMaMMr/'>Understanding JS - EventLoop 2</a> by Daniel Chcouri (<a href='http://codepen.io/theosp'>@theosp</a>) on <a href='http://codepen.io'>CodePen</a>.
+      </iframe>
   """
 
   """
@@ -55,6 +90,10 @@
       </ul>
 
       <img src="/img/event-loop.png" style="border: 0 none;">
+  """
+
+  """
+      <h3 style="text-transform: none">Closures - How Variables Names Work in JS</h3>
   """
 
   """
@@ -101,6 +140,10 @@
 
       <iframe height='500' scrolling='no' src='//codepen.io/theosp/embed/JKEWmZ/?height=500&theme-id=0&default-tab=js&embed-version=2' frameborder='no' allowtransparency='true' allowfullscreen='true' style='width: 100%;'>See the Pen <a href='http://codepen.io/theosp/pen/begpRq/'>Understanding JS - EventLoop 2</a> by Daniel Chcouri (<a href='http://codepen.io/theosp'>@theosp</a>) on <a href='http://codepen.io'>CodePen</a>.
       </iframe>
+  """
+
+  """
+      <h3 style="text-transform: none">this - What is it, and how it works</h3>
   """
 
   """
